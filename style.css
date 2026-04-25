@@ -4,19 +4,31 @@ body {
   background: #f5f7fa;
 }
 
+/* Header */
 h1 {
+  text-align: center;
+  padding: 20px;
+  background: #1f1f1f;
+  color: white;
+  margin: 0;
+}
+
+p {
   text-align: center;
 }
 
-section {
-  background: white;
-  margin: 20px auto;
-  padding: 20px;
-  width: 80%;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+/* Sections */
+h2 {
+  margin-left: 10%;
+  color: #333;
 }
 
-h2 {
-  color: #333;
+/* Project cards */
+h3, p {
+  margin-left: 10%;
+}
+
+/* Contact */
+p:last-child {
+  margin-bottom: 40px;
 }
