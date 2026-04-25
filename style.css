@@ -5,30 +5,24 @@ body {
 }
 
 /* Header */
-h1 {
-  text-align: center;
-  padding: 20px;
+header {
   background: #1f1f1f;
   color: white;
-  margin: 0;
-}
-
-p {
   text-align: center;
+  padding: 30px 10px;
 }
 
 /* Sections */
-h2 {
-  margin-left: 10%;
-  color: #333;
+section {
+  width: 80%;
+  margin: 20px auto;
 }
 
-/* Project cards */
-h3, p {
-  margin-left: 10%;
-}
-
-/* Contact */
-p:last-child {
-  margin-bottom: 40px;
+/* Cards */
+.card {
+  background: white;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
